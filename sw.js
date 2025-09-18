@@ -1,7 +1,7 @@
 const CACHE_NAME = "leap-cache-v1";
 const urlsToCache = [
-  "./LEAP Search.html",
-  "./manifest for LEAP.json",
+  "./index.html",
+  "./manifest.json",
   "./icon-192.png",
   "./icon-512.png"
 ];
