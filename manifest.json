@@ -1,5 +1,5 @@
 {
-  "name": "LEAP 単語検索",
+  "name": "LEAP Search",
   "short_name": "LEAP",
   "start_url": "./index.html",
   "display": "standalone",
