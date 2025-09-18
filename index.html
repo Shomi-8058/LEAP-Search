@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>LEAP Search</title>
 <meta name="theme-color" content="#0b1020">
-<link rel="manifest" href="manifest for LEAP.json">
+<link rel="manifest" href="manifest.json">
 
 <!-- アイコン -->
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
@@ -5555,7 +5555,7 @@ function clearSearch(){
 
 // Service Worker 登録
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw for LEAP.js")
+  navigator.serviceWorker.register("./sw.js")
     .then(() => console.log("Service Worker registered"))
     .catch(err => console.error("SW registration failed:", err));
 }
